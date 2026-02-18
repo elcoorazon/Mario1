@@ -112,7 +112,7 @@ const levelAscii = [
         minX: 560,
         maxX: 760,
         speed: 35,
-        dir: 1
+        dir: 1 as const,
       }
     ]
   },
@@ -141,7 +141,7 @@ const levelAscii = [
         minX: 430,
         maxX: 620,
         speed: 48,
-        dir: 1
+        dir: 1 as const,
       }
     ]
   }
